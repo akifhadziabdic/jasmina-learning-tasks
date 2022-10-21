@@ -59,10 +59,43 @@ height: 60px;
     height: 250px;
     width: 450px;
 }
+
+.cijena{
+color:rgb(154,205,50);
+}
+.stanje{
+    color:gray;
+}
+.lokacija{
+    color: rgb(159,182,205);
+}
+.obnovljen{
+    color:black;
+}
 .white{
     color: white;
 }
-.gray{
+.cijenaautomobila{
+    background-color: rgb(154,205,50);
+    color:white;
+}
+.korišteno{
+    background-color: rgb(192,192,192);
+    color: white;
+}
+.Zenica{
+    background-color: rgb(159,182,205);
+    color:white;
+}
+.jučer{
+    background-color: gainsboro;
+    color: gray;
+}
+.informacijeovozilu{
+    color: gray;
+}
+.informacijeovozilu1{
+    background-color: rgb(235,235,235);
     color:gray;
 }
 ul{
