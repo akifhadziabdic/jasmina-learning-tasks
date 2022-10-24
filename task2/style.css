@@ -1,0 +1,168 @@
+body{
+  margin:0;
+  padding: 0;
+  background: black;
+}
+
+.container{
+  width: 100vw;
+  height:100vh;
+  display: grid;
+  grid-template-columns: (repeat 3fr);
+  grid-template-rows:50px 1fr 100px;
+  gap:5px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.container div{
+  padding:10px;
+  border:1px solid black;
+}
+
+.header{
+  grid-column-start:1;
+  grid-column-end:span 4;
+  background: black;
+}
+
+.content-large{
+  grid-row-start:2;
+  grid-row-end:3;
+  grid-column-start: 1;
+  grid-column-end: span 4;
+  background-image: url(2.jpg);
+  background-position: center;
+  margin-top: 20px;
+}
+
+ul {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    margin-left:0;
+    padding: 0;
+    background-color: black;
+    overflow: hidden;
+    margin-top: -9px;
+    width: 97vw;
+  }
+
+li{
+    display:inline;
+    float:left;
+}
+
+li a{
+  display: block;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding: 7px 12px;
+  text-decoration: none;
+}
+
+li a:hover {
+    color:orangered;
+  }
+
+.search{
+    float: left;
+    margin-left: 550px;
+}
+.srch{
+    background: transparent;
+    border: 1px solid #ff7200;
+    color: white;
+    margin-top: 0px;
+    border-right: none;
+    font-size: 13px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius:5px;
+    border-top-left-radius:5px;
+    height: 2px;
+}
+
+.btn{
+    background:orangered;
+    border: 2px solid orangered;
+    border-radius: 5px;
+    color:white;
+    font-size: 15px;
+    width: 90px;
+}
+
+h1{
+  color:#ff7200;
+  font-size: 40px;
+  margin-left: 40px;
+}
+
+p{
+  color:white;
+  font-size: 30px;
+  margin-left: 310px;
+  font-style: italic;
+}
+
+.font{
+  color: orangered;
+}
+.cn{
+  background: #ff7200;
+  border: 1px solid orangered;
+  color: white;
+  width: 90px;
+  height: 30px;
+  font-size: 14px;
+  border-radius: 10px;
+  border: none;
+  margin-left: 620px;
+}
+
+.cn a{
+  text-decoration: none;
+  color: black;
+  transition: .4s ease;
+}
+
+.cn:hover{
+  background-color: white;
+}
+.ContactUs{
+  color: #ff7200;
+  margin-left: 20px;
+}
+
+.Footer{
+  grid-column-start:1;
+  grid-column-end:span 4;
+  text-decoration: none;
+  color: white;
+}
+
+.Contactabout{
+  text-decoration: none;
+  color: white;
+  margin-left: 10px;
+  margin-top: -9px;
+}
+
+.SocialMedia{
+  float:right;
+  margin-top: -50px;
+  margin-right: 30px;
+}
+
+a{
+text-decoration: none;
+color: wheat;
+font-size: 15px;
+}
+
+a:hover{
+color: orangered;
+}
