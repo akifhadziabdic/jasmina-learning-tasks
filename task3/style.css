@@ -1,0 +1,12 @@
+body {
+    padding: 10px 20px;
+    background-color: blanchedalmond;
+}
+
+#ball {
+    position:absolute;
+    background-color: brown;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
